@@ -1,0 +1,421 @@
+@media screen and (max-width:1152px) {
+    #cars .car-content h5{
+        margin-left: 130px !important;
+        text-transform: uppercase;
+        font-size: 1rem !important;
+    }
+    #cars  .car-a img{
+        margin-bottom: 24px !important;
+    }
+    #cars  .car-c img{
+        margin-bottom: 24px !important;
+    }
+    #client .client-slider .jomo-bg p{
+        line-height: 1.3rem !important;
+        height: 140px !important;
+        width: 310px !important;
+        border: 1px solid black;
+        margin-bottom: 15px !important;
+    }  
+}
+@media screen and (max-width:1024px) {
+    #hero .content .content-heading{
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+    }
+    #hero .content .content-heading{
+        font-size: 2.5rem !important;
+        font-weight: 500 !important; 
+    }
+    #hero .content .hero-btn{
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+    }
+    #about .about-content h2::after{
+        width: 500px !important;
+    }
+    #car-feature .feature-title h2::after{
+        width: 500px !important;
+    }
+}
+@media screen and (max-width:992px) {
+    .top-footer .phone i{
+        font-size: 1.2rem !important;
+    }
+    .top-footer .phone h5{
+        font-size: 1rem !important;
+        margin-left: 15px !important;
+    }
+    .top-footer .email::after{
+        margin-left: 10px !important;
+    }
+    .top-footer .email i{
+        margin-left: 10px !important;
+        font-size: 1.2rem !important;
+    }
+    .top-footer .email h5{
+        font-size: 1rem !important;
+    }
+    .top-footer .icon{
+        margin-left: 12px !important;
+    }
+}
+@media screen and (max-width:842px){
+    #cars .car-heading h2::after{
+        width: 450px !important;
+    }
+    #about .about-content h2::after{
+        width: 300px !important;
+    }
+    #car-feature .feature-title h2::after{
+        width: 400px !important;
+    }
+    #client .client-heading h2::after{
+        width: 250px;   
+    }
+    .top-footer{
+        top: -9% !important;
+        height: 75px !important;
+    }
+    .top-footer .phone i{
+        font-size: 1rem !important;
+    }
+    .top-footer .phone h5{
+        font-size: 0.8rem !important;
+        margin-left: 10px !important;
+    }
+    .top-footer .email::after{
+        margin-left: 8px !important;
+    }
+    .top-footer .email i{
+        margin-left: 8px !important;
+        font-size: 1rem !important;
+    }
+    .top-footer .email h5{
+        font-size: 0.8rem !important;
+    }
+    .top-footer .icon{
+        margin-left: 10px !important;
+    }
+    .top-footer .icon i{
+        font-size: 12px !important;
+        margin-left: 8px !important;
+    }
+}
+@media screen and (max-width:786px){
+    .navbar-light .navbar-nav .nav-link:hover{ 
+        margin-top: 10px !important;
+    }
+    #cars .car-content h5{
+        margin-left: 30px !important;
+    }
+    .btn-danger{
+        font-size: 10px !important;
+    }
+    #about{
+        height: 550px !important;
+    }
+    #client .client-heading h2::after{
+        width: 220px;   
+    }
+    #client .contact-heading h2::after{
+        width: 400px;
+    }
+}
+@media screen and (max-width:642px){
+    .navbar-light .navbar-nav .nav-link:hover{ 
+        margin-top: 10px !important;
+    }
+    #hero .content .content-heading{
+        font-size: 1.6rem !important;
+    }
+    #hero .content .hero-btn{
+        margin-left: 9.5rem !important;
+    }
+    #hero .content .btn-hero{
+        padding: 0.6rem 2rem !important;
+    }
+    #cars .car-heading h2::after{
+        width: 250px !important;
+    }
+    #about {
+        height: 650px !important;
+    }
+    #about .about-content h2::after{
+        width: 180px !important;
+        margin-left: 380px !important;
+    }
+    #car-feature .feature-title h2::after{
+        width: 200px !important;
+        margin-left: 300px !important;
+    }
+    #client .client-heading h2::after{
+        width: 250px;   
+    }
+    #count{
+        height: 700px !important;
+    }
+    #count .count-content{
+        margin-top: 2rem !important;
+    }
+    #client .client-heading h2::after{
+        width: 150px !important; 
+        margin-left: 400px !important;  
+    }
+    .title-heading{
+        font-size: 2.5rem !important;
+    }
+    #client .contact-heading h2::after{
+        width: 270px !important;
+        margin-left: 270px !important;
+    }
+    .top-footer{
+        display: block !important;
+        margin: auto !important;
+        text-align: center !important;
+        height: 85px !important;
+    }
+    .top-footer .phone{
+        display: block !important;
+        text-align: center !important;
+    }
+    .top-footer .email{
+        display: block !important;
+        text-align: center !important;
+    }
+    .top-footer .email::after{
+        border-left: none !important;
+    
+    }
+    .top-footer .email h5 i{
+        margin-left: 0px !important;
+    }
+    .top-footer .email h5{
+        margin-left: 0px !important;
+    }
+    .top-footer .phone h5 i{
+        margin-left: 0px !important;
+    }
+    .top-footer .phone h5{
+        margin-top: 10px !important;
+        margin-left: 0px !important;
+    }
+    .top-footer .icon{
+        margin-top: -30px !important;
+        margin-left: 0px !important;
+    }
+    .footer-content .btn-info{
+        display: block !important;
+    }
+}
+@media screen and (max-width:540px){
+    .navbar-light .navbar-nav .nav-link:hover{ 
+        margin-top: 10px !important;
+    }
+    #about .about-content h2::after{
+        width: 150px !important;
+        margin-left: 350px !important;
+    }
+    #client .client-heading h2::after{
+        width: 120px !important; 
+        margin-left: 390px !important;  
+    }
+    #client .contact-heading h2::after{
+        width: 250px !important;
+        margin-left: 250px !important;
+    }
+    .footer-gap img{
+        width: 90% !important;
+    }
+    .footer-gap{
+        margin-top: 0 !important;
+    }
+    .top-footer{
+        top: -5% !important;
+    }
+}
+@media screen and (max-width:480px){
+    .navbar-light .navbar-nav .nav-link:hover{ 
+        margin-top: 10px !important;
+    }
+    #hero .content .content-heading{
+        font-size: 1.4rem !important;
+    }
+    #hero .content .hero-btn{
+        margin-left: 8rem !important;
+    }
+    #hero .content .btn-hero{
+        padding: 0.5rem 1.8rem !important;
+    }
+    .title-heading{
+        font-size: 1.8rem !important;
+    }
+    #cars .car-heading h2::after{
+        width: 250px !important;
+        margin-top: -15px !important;
+        margin-left: 150px !important;
+    }
+    #about .about-content h2::after{
+        width: 150px !important;
+        margin-top: -15px !important;
+        margin-left: 250px !important;
+    }
+    #car-feature .feature-title h2::after{
+        width: 200px !important;
+        margin-top: -15px !important;
+        margin-left: 220px !important;
+    }
+    #client .client-heading h2::after{
+        width: 140px !important; 
+        margin-top: -15px !important;
+        margin-left: 290px !important;  
+    }
+    #client .contact-heading h2::after{
+        width: 220px !important;
+        margin-top: -15px !important;
+        margin-left: 170px !important;
+    }
+    .footer-gap{
+        margin-top: 0 !important;
+    }
+    .top-footer{
+        top: -5% !important;
+    }
+}
+@media screen and (max-width:420px){
+    .navbar-light .navbar-nav .nav-link:hover{ 
+        margin-top: 10px !important;
+    }
+    #hero .content .content-heading{
+        font-size: 1rem !important;
+    }
+    #hero .content .hero-btn{
+        margin-left: 6rem !important;
+    }
+    #cars .car-heading h2::after{
+        width: 230px !important;
+    }
+    #cars .car-content h5{
+        margin-left: 30px !important;
+        font-size: 1rem !important;
+    }
+    .btn-danger{
+        font-size: 10px !important;
+    }
+    #about{
+        height: 720px !important;
+    }
+    #about .about-content h2::after{
+        width: 140px !important;
+    }
+    #car-feature .feature-title h2::after{
+        width: 150px !important;
+        margin-left: 220px !important;
+    }
+    #client .client-heading h2::after{
+        width: 100px !important;   
+    }
+    #client .contact-heading h2::after{
+        width: 180px !important;
+    }
+
+}
+@media screen and (max-width:386px){
+    .navbar-light .navbar-nav .nav-link:hover{ 
+        margin-top: 10px !important;
+    }
+    #hero .content .content-heading{
+        font-size: 1rem !important;
+    }
+    #hero .content .content-heading{
+        line-height: 25px !important;
+    }
+    
+    #hero .content .hero-btn{
+        margin-left: 6rem !important;
+    }
+    #hero .content .btn-hero{
+        padding: 0.5rem 1.4rem !important;
+        font-size: 14px !important;
+    }
+    #cars .car-heading h2::after{
+        width: 200px !important;
+        margin-left: 140px !important;
+    }
+    #cars .car-content h5{
+        margin-left: 30px !important;
+        font-size: 1rem !important;
+    }
+    #cars{
+        padding: 1.3rem !important;
+    }
+    .btn-danger{
+        font-size: 10px !important;
+    }
+    #about{
+        height: 800px !important;
+    }
+    #about .about-content h2::after{
+        width: 100px !important;
+        margin-left: 240px !important;
+    }
+    #car-feature .feature-title h2::after{
+        width: 140px !important;
+        margin-left: 200px !important;
+    }
+    #client .client-heading h2::after{
+        width: 50px !important; 
+        margin-left: 280px !important;  
+    }
+    #client .contact-heading h2::after{
+        width: 160px !important;
+        margin-left: 160px !important;
+    }
+    .copy-right span{
+        font-size: 0.6rem !important;
+    }
+}
+@media screen and (max-width:320px){
+    #hero .content .content-heading{
+        line-height: 25px !important;
+    }
+    #hero .content .hero-btn{
+        margin-left: 0rem !important;
+    }
+    #cars{
+        padding: 1.3rem !important;
+    }
+    #cars .car-heading h2::after{
+        width: 100px !important;
+    }
+    #cars .car-content h5{
+        margin-left: 30px !important;
+        font-size: 1rem !important;
+    }
+    #cars .car-content h5 span{
+        margin-left: 0px !important;
+    }
+    .btn-danger{
+        font-size: 10px !important;
+    }
+    #about{
+        height: 850px !important;
+    }
+    #about .about-content h2::after{
+        width: 60px !important;
+    }
+    #car-feature .feature-title h2::after{
+        width: 80px !important;
+    }
+    #client .client-heading h2::after{
+        width: 20px !important;  
+    }
+    #client .contact-heading h2::after{
+        width: 130px !important;
+    }
+    .copy-right span{
+        font-size: 0.6rem !important;
+    }
+}

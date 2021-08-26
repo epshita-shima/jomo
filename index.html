@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   
+    <!-- bootstrap link -->
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <!-- fontawesome link -->
+    <link rel="stylesheet" href="./assets/css/all.min.css">
+    <link rel="stylesheet" href="./assets/css/fontawesome.min.css">
+    <!-- google fonts -->
+
+     <!-- owl-carousel -->
+     <link rel="stylesheet" href="./assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="./assets/css/owl.theme.default.min.css">
+    <!-- main css -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <!-- responsive link -->
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+</head>
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark fixed-top">
+       <div class="container">
+        <a class="navbar-brand" href="#">Zomo</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active mx-3">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item mx-2">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item mx-2">
+              <a class="nav-link" href="#">Cars</a>
+            </li>
+            <li class="nav-item mx-2">
+                <a class="nav-link" href="#">Portfolio</a>
+              </li>
+              <li class="nav-item mx-2">
+                <a class="nav-link" href="#">News</a>
+              </li>
+              <li class="nav-item mx-2">
+                <a class="nav-link" href="#">Contact us</a>
+              </li>
+              <li>
+                <span class="navbar-text ">
+                  <a href=""><i class="fa fa-search mx-3" aria-hidden="true"></i> Login</a>
+                </span>
+              </li>    
+          </ul>
+        </div>
+       </div>
+      </nav>
+
+      <!-- hero section -->
+<div id="hero">
+    <div class="container">
+        <div class="col-xl-6 col-md-6 py-5 text-white content">
+            <h1 class="content-heading">Welcome to our car Showroom</h1>
+            <button class="btn btn-hero hero-btn mt-4">Book Now
+            </button>
+        </div>
+    </div>
+</div>
+</header>  
+<main>
+  <!-- @@@@@@ car section start @@@@@@-->
+<section id="cars" class="">
+  <div class="container">
+    <div class="row bg-light shadow-lg p-4">
+     <div class="col-md-12 car-content">
+       <h4 class="mb-3">Find Your Car</h4>
+      <form class="needs-validation" novalidate>
+        <div class="form-row">
+          <div class="col-md-4 mb-3">
+            <input type="text" class="form-control" id="validationTooltip03" required placeholder="Keyword">
+            <div class="invalid-tooltip">
+              Please provide a valid city.
+            </div>
+          </div>
+          <div class="col-md-4 mb-3"> 
+            <select class="custom-select" id="validationTooltip04" required>
+              <option selected disabled value="">Make All</option>
+              <option>...</option>
+              <option>...</option>
+              <option>...</option>
+            </select>
+            <div class="invalid-tooltip">
+              Please select a valid state.
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <select class="custom-select" id="validationTooltip04" required>
+              <option selected value="">Model</option>
+              <option>...</option>
+              <option>...</option>
+              <option>...</option>
+            </select>
+            <div class="invalid-tooltip">
+              Please select a valid state.
+            </div>
+          </div>
+        </div>
+        <button class="btn btn-primary mt-2" type="submit">Search</button>
+      </form>
+     </div>
+    </div>
+    <div class="row mt-5 mb-5">
+      <div class="col-md-12 car-heading mb-3 mt-3">
+        <h2 class="title-heading">Ours Cars</h2> 
+      </div>
+    </div>
+    <div class="row mb-5">
+      <div class="col-md-6 car-a">
+        <img class="img-fluid" src="./assets/images/cars/car-1.jpg" alt="">
+        <div class="car-content d-flex justify-content-center align-items-center">
+          <button class="btn btn-danger">Book now</button>
+          <h5>Camry <span>$</span>30000.00</h5>
+        </div>
+      </div>
+      <div class="col-md-6 car-b">
+        <img class="img-fluid mt-5" src="./assets/images/cars/car-2.jpg" alt="">
+        <div class="car-content d-flex justify-content-center align-items-center">
+          <button class="btn btn-danger">Book now</button>
+          <h5>BMW <span>$</span>40000.00</h5>
+        </div>
+      </div>
+      <div class="col-md-6 car-c">
+        <img class="img-fluid mt-4" src="./assets/images/cars/car-3.jpg" alt="">
+        <div class="car-content d-flex justify-content-center align-items-center">
+          <button class="btn btn-danger">Book now</button>
+        <h5>Nock <span>$</span>60000.00</h5>
+        </div>
+      </div>
+      <div class="col-md-6 car-d">
+        <img class="img-fluid mt-2" src="./assets/images/cars/car-4.jpg" alt="">
+        <div class="car-content d-flex justify-content-center align-items-center">
+          <button class="btn btn-danger">Book now</button>
+        <h5>Audi <span>$</span>70000.00</h5>
+        </div>
+      </div>
+    </div>
+    <button class="btn btn-secondary mt-5">See more</button>
+  </div>
+  
+</section>
+
+<!-- @@@@@@@@@ about section start @@@@@@@@ -->
+<section id="about">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 text-white about-content">
+        <h2 class="mt-5 title-heading">About Showroom</h2>
+        <p class="mt-5">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores ut reprehenderit harum quisquam? Quod velit nam eligendi, voluptates ullam voluptatibus magnam minus fugit error excepturi delectus mollitia distinctio, debitis quis totam nihil ipsum! Reiciendis est odit a voluptatum reprehenderit, impedit dolor laborum nam et! Nulla deserunt hic deleniti vitae, ea placeat nisi animi laudantium aut quod rerum ut eligendi! Quos, neque consequuntur laborum voluptate blanditiis illum veritatis et, eveniet iure omnis, aperiam sequi eaque deserunt veniam doloremque laboriosam. Ad asperiores voluptate quos, fugit culpa accusamus illum corrupti eius quas ipsa quibusdam facilis alias eum tenetur? Quibusdam eum voluptatem est quo!</p>
+        <button class="btn btn-secondary mt-5">Read More</button>
+      </div>
+    </div>
+  </div>
+</section>
+  <!-- @@@@@@@@@ car featurs start @@@@@@@@@-->
+  <section id="car-feature">
+    <div class="container">
+      <div class="row mt-5">
+        <div class="col-md-12 feature-title">
+          <h2 class="title-heading">Featured Cars</h2>
+        </div>
+      </div>
+        <div class="row mt-5">
+          <div class="col-md-4">
+            <div class="card">
+              <div class="feature-img">
+                <img class="img-fluid" src="./assets/images/features/unnamed.png" alt="">
+                <div class="price-box text-center">
+                  <h5>$80000.00</h5>
+                  <p>$70000.00</p>
+                </div>
+                <div class="top-count">
+                  <span>01</span>
+                </div>
+              </div>
+              <div class="card-title mt-4">
+                <h4>Best Audi Car</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam aut delectus quisquam eum eligendi similique voluptates nesciunt eaque odit quasi.</p>
+              </div>
+              
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <div class="feature-img">
+                <img class="img-fluid" src="./assets/images/features/unnamed.png" alt="">
+              
+              <div class="price-box text-center">
+                <h5>$80000.00</h5>
+                <p>$70000.00</p>
+              </div>
+              <div class="top-count">
+                <span>02</span>
+              </div>
+            </div>
+              <div class="card-title mt-4">
+                <h4>Best Audi Car</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam aut delectus quisquam eum eligendi similique voluptates nesciunt eaque odit quasi.</p>
+              </div>
+             
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <div class="feature-img">
+                <img class="img-fluid" src="./assets/images/features/unnamed.png" alt="">
+                <div class="price-box text-center">
+                  <h5>$80000.00</h5>
+                  <p>$70000.00</p>
+                </div>
+                <div class="top-count">
+                  <span>03</span>
+                </div>
+              </div>
+              <div class="card-title mt-4">
+                <h4>Best Audi Car</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam aut delectus quisquam eum eligendi similique voluptates nesciunt eaque odit quasi.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+  </section>
+  <!-- @@@@@@@@@@ count section start @@@@@@@@@@ -->
+  <section id="count">
+    <div class="container">
+      <div class="row text-white d-flex justify-content-center align-items-center">
+        <div class="col-md-3 count-content">
+          <i class="fas fa-car"></i>
+          <h4 class="mt-2">Cars Stocks</h4>
+          <span class="counter1 mt-2">12000</span>
+        </div>
+        <div class="col-md-3 count-content">
+          <i class="fas fa-trophy"></i>
+          <h4 class="mt-2">Awards</h4>
+          <span class="counter2">600+</span>
+        </div>
+        <div class="col-md-3 count-content">
+          <i class="fas fa-truck"></i>
+          <h4 class="mt-2">Dealer Branches</h4>
+          <span class=" counter3 mt-2">800+</span>
+        </div>
+        <div class="col-md-3 count-content">
+          <i class="far fa-smile"></i>
+          <h4 class="mt-2">Happy clients</h4>
+          <span class="counter4 mt-2">100000+</span>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- @@@@@@@@@@ client says section start @@@@@@@@@@@ -->
+  <section id="client">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 client-heading mt-5 mb-5">
+          <h2 class="title-heading">What Our Client Says</h2>
+        </div>
+      </div>
+      <div class="row mt-5">
+       <div class="owl-carousel owl-theme">
+        <div class="client-slider mt-4">
+          <div class=" d-flex justify-content-center align-items-center">
+            <div class="client-content text-center">
+              <p>many vari-ations of passeges of Lorem ipsum avail</p>
+              <img class="" src="./assets/images/clients/client_02.png" alt="">
+              <h5>Suffered</h5>
+              <h6>Client</h6>
+              <i class="fa fa-quote-left" aria-hidden="true"></i>       
+            </div>
+            <div class=" client-content text-center ml-4">
+                <p>many vari-ations of passeges of Lorem ipsum avail</p>
+                <img class="" src="./assets/images/clients/client_02.png" alt="">
+                <h5>Suffered</h5>
+                <h6>Client</h6>
+                <i class="fa fa-quote-left" aria-hidden="true"></i>
+            </div>
+          </div>
+        </div>
+      <div class=" client-slider">
+        <div class="jomo-bg text-center">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, accusantium a. Dolores omnis dolor minus, iste labore inventore natus pariatur cumque quod perspiciatis dolorem</p>
+          <img class="img-fluid" src="./assets/images/clients/client_03.jpg" alt="">
+          <h5 class="">Randomised</h5>
+          <h6 class="">Client</h6>
+          <i class="fa fa-quote-left" aria-hidden="true"></i>
+        </div>
+      </div>
+        <div class="client-slider mt-4">
+          <div class=" d-flex justify-content-center align-items-center">
+            <div class="client-content text-center">
+              <p>many vari-ations of passeges of Lorem ipsum avail</p>
+              <img class="" src="./assets/images/clients/client_02.png" alt="">
+              <h5>Suffered</h5>
+              <h6>Client</h6>
+              <i class="fa fa-quote-left" aria-hidden="true"></i>   
+            </div>
+            <div class=" client-content text-center ml-4">
+                <p>many vari-ations of passeges of Lorem ipsum avail</p>
+                <img class="" src="./assets/images/clients/client_02.png" alt="">
+                <h5>Suffered</h5>
+                <h6>Client</h6>
+                <i class="fa fa-quote-left" aria-hidden="true"></i>
+            </div>
+          </div>
+        </div>
+        <div class=" client-slider">
+          <div class="jomo-bg text-center">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, accusantium a. Dolores omnis dolor minus, iste labore inventore natus pariatur cumque quod perspiciatis dolorem</p>
+            <img class="img-fluid" src="./assets/images/clients/client_03.jpg" alt="">
+            <h5 class="">Randomised</h5>
+            <h6 class="">Client</h6>
+            <i class="fa fa-quote-left" aria-hidden="true"></i>
+          </div>
+        </div>
+        
+        <div class="client-slider mt-4">
+          <div class=" d-flex justify-content-center align-items-center">
+            <div class="client-content text-center">
+              <p>many vari-ations of passeges of Lorem ipsum avail</p>
+              <img class="" src="./assets/images/clients/client_02.png" alt="">
+              <h5>Suffered</h5>
+              <h6>Client</h6>
+              <i class="fa fa-quote-left" aria-hidden="true"></i>   
+            </div>
+            <div class=" client-content text-center ml-4">
+                <p>many vari-ations of passeges of Lorem ipsum avail</p>
+                <img class="" src="./assets/images/clients/client_02.png" alt="">
+                <h5>Suffered</h5>
+                <h6>Client</h6>
+                <i class="fa fa-quote-left" aria-hidden="true"></i>
+            </div>
+          </div>
+        </div>
+      <div class=" client-slider">
+        <div class="jomo-bg text-center">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, accusantium a. Dolores omnis dolor minus, iste labore inventore natus pariatur cumque quod perspiciatis dolorem</p>
+          <img class="img-fluid" src="./assets/images/clients/client_03.jpg" alt="">
+          <h5 class="">Randomised</h5>
+          <h6 class="">Client</h6>
+          <i class="fa fa-quote-left" aria-hidden="true"></i>
+        </div>
+      </div>
+        <div class="client-slider mt-4">
+          <div class=" d-flex justify-content-center align-items-center">
+            <div class="client-content text-center">
+              <p>many vari-ations of passeges of Lorem ipsum avail</p>
+              <img class="" src="./assets/images/clients/client_02.png" alt="">
+              <h5>Suffered</h5>
+              <h6>Client</h6>
+              <i class="fa fa-quote-left" aria-hidden="true"></i>
+            </div>
+            <div class=" client-content text-center ml-4">
+              <p>many vari-ations of passeges of Lorem ipsum avail</p>
+              <img class="" src="./assets/images/clients/client_02.png" alt="">
+              <h5>Suffered</h5>
+              <h6>Client</h6>
+              <i class="fa fa-quote-left" aria-hidden="true"></i>
+            </div>
+          </div>
+        </div>
+        <div class=" client-slider">
+          <div class="jomo-bg text-center">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, accusantium a. Dolores omnis dolor minus, iste labore inventore natus pariatur cumque quod perspiciatis dolorem</p>
+            <img class="img-fluid" src="./assets/images/clients/client_03.jpg" alt="">
+            <h5 class="">Randomised</h5>
+            <h6 class="">Client</h6>
+            <i class="fa fa-quote-left" aria-hidden="true"></i>
+          </div>
+        </div>
+        <div class="client-slider mt-4">
+          <div class=" d-flex justify-content-center align-items-center">
+            <div class="client-content text-center">
+              <p>many vari-ations of passeges of Lorem ipsum avail</p>
+              <img class="" src="./assets/images/clients/client_02.png" alt="">
+              <h5>Suffered</h5>
+              <h6>Client</h6>
+              <i class="fa fa-quote-left" aria-hidden="true"></i>
+            </div>
+            <div class=" client-content text-center ml-4">
+              <p>many vari-ations of passeges of Lorem ipsum avail</p>
+              <img class="" src="./assets/images/clients/client_02.png" alt="">
+              <h5>Suffered</h5>
+              <h6>Client</h6>
+              <i class="fa fa-quote-left" aria-hidden="true"></i>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+       </div>
+
+      <!-- @@@@@@@@@@@ contact start @@@@@@@@@@ -->
+      <div class="row mt-5">
+        <div class="col-md-12 contact-heading mt-5">
+          <h2 class="title-heading">Contact Us</h2>
+        </div>  
+      </div>
+      <div class="row footer-gap">
+        <div class="col-md-6 mt-5 form-part">
+          <form>
+            <div class="form-group mt-5">
+              <input type="name" class="form-control" id="exampleFormControlInput1" placeholder="Name">
+            </div>
+            <div class="form-group">
+              <input type="tel" class="form-control" id="exampleFormControlInput1" placeholder="Phone">
+            </div>
+            <div class="form-group">
+              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Email">
+            </div> 
+            <div class="form-group mt-5">
+              <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Message">
+           </div>
+           <button type="submit" class="btn btn-dark mt-5">Send</button>
+          </form>
+        </div>
+        <div class="col-md-6 mt-5">
+          <img class="img-fluid mt-3 w-60 ml-3" src="./assets/images/contact.jpg" alt="">
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+  <!-- @@@@@@@@@@ footer section start @@@@@@@@@@@-->
+    <footer>
+      <div class="container">
+        <div class="row ">
+          <div class="top-footer d-flex justify-content-center align-items-center w-50">
+            <div class="phone d-flex">  
+              <h5> <i class="fas fa-phone-square-alt"></i> +013 2567984</h5>
+            </div>
+            <div class="email d-flex">
+              <h5><i class="fa fa-envelope" aria-hidden="true"></i> demo@gmail.com</h5>
+            </div>
+            <div class="icon">
+              <i class="fab fa-facebook-f" aria-hidden="true"></i>
+              <i class="fab fa-twitter" aria-hidden="true"></i>
+              <i class="fab fa-linkedin" aria-hidden="true"></i>
+              <i class="fab fa-instagram" aria-hidden="true"></i>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-3 footer-content mt-5">
+            <h5>Contact info</h5>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus a saepe, error temporibus soluta sequi libero repudiandae pariatur dignissimos quae.</p>
+          </div>
+          <div class="col-md-3 footer-content mt-5 ">
+            <h5>Open hours</h5>
+            <p> Monday 10:00 am to 08:00 pm <br> Sunday: Off<br> Monday 10:00 am to 08:00 pm <br> Monday 10:00 am to 08:00 pm <br> Monday 10:00 am to 08:00 pm <br> Monday 10:00 am to 08:00 pm</p>
+          </div>
+          <div class="col-md-3 footer-content mt-5">
+            <h5 >Usefull link</h5>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reprehenderit accusantium voluptatum, ipsum perspiciatis aspernatur ratione?</p>
+          </div>
+          <div class="col-md-3 footer-content mt-5">
+            <h5>Newsletter</h5>
+            <input type="text" placeholder="enter your email ">
+            <button class="btn btn-info mt-3">Subscribe</button>
+          </div>
+        </div>
+        <div class="row mt-5">
+          <div class="col-md-6 copy-right mt-5">
+          <p><span class=""><i class="fa fa-copyright" aria-hidden="true"></i>2021 All Rights Reserved. Design by Free Html Templates</span></p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+
+    <!-- js -->
+    <script src="./assets/js/jquery-3.5.1.slim.min.js"></script>
+    <script src="./assets/js/bootstrap.bundle.min.js"></script>
+    <script src="./assets/js/fontawesome.min.js"></script>
+    <script src="./assets/js/owl.carousel.min.js"></script>
+    <script src="./assets/js/main.js"></script>
+
+    
+</body>
+</html>

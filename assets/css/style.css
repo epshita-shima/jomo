@@ -1,0 +1,478 @@
+body{
+    font-size: 16px;
+}
+section{
+    padding: 60px 0;
+}
+/* @@@@@@@@@@@@@@ top nav start @@@@@@@@@@@@@@@ */
+.navbar-nav a{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1rem;
+    text-transform: uppercase;   
+}
+.navbar-light .navbar-brand{
+    color: #fff;
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-family: merienda;
+    letter-spacing:  2px;
+}
+.navbar-light .navbar-brand:hover{
+    color: #fff;
+    display: block;
+
+}
+.navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show, .navbar-nav .show > .nav-link{
+    color: #fff;
+    background: #03DE1C;
+}
+.navbar-light .navbar-nav .nav-link{
+    color: #C4C6C8;
+    overflow: hidden;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+    background: crimson;
+    color: #fff;  
+    display: block;
+}
+.navbar-nav{
+    text-align: center;
+}
+.nav-link.active, .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover{
+    color: #C4C6C8;
+}
+.navbar-light .navbar-text a:focus, 
+    .navbar-light .navbar-text a:hover{
+    color: #03DE1C;
+}
+
+.navbar-light .navbar-text a{
+    color: #03DE1C;
+    font-size: 1rem;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.navbar-light .navbar-text  a i{
+    color: #fff;
+}
+/* @@@@@@@@@@@ hero section start @@@@@@@@@@@ */
+#hero{
+    background: url('../images/banner.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#hero .content h1{
+    font-size: 4rem;
+    font-weight: 700;
+    text-transform: uppercase;  
+}
+#hero .content .btn-hero{
+    background: #03DE1C;
+    color: #fff;
+    padding: 0.8rem 3rem;
+    border-radius: 0;
+    border: none;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+#hero .content .btn-hero:hover{
+    background: crimson;
+}
+.w-100{
+    height: 100vh;
+}
+/* @@@@@@@@@@@@@@@@ car section @@@@@@@@@@@@@@@@@@@*/
+#cars{
+    height: auto;
+}
+#cars .car-heading h2::after{
+    content: " ";
+    height: 1px;
+    width: 680px;
+    background: #03DE1C;
+    display: block;
+    margin-top: -20px;
+    margin-left: 220px;
+}
+#cars .car-a{
+    border-right: 1px dotted black;  
+}
+#cars .car-b{
+    border-bottom: 1px dotted black;
+}
+#cars .car-c{
+    border-top: 1px dotted black;
+    border-right: 1px dotted black;
+}
+#cars .car-content{
+    padding-bottom: 1rem;
+}
+#cars .car-content h5{
+    margin-left: 160px;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+}
+#cars .car-content h5 span{
+    color: #03DE1C;
+    margin-left: 60px;
+}
+.btn-danger{
+    text-transform: uppercase;
+    background: #03DE1C;
+    border: none;
+    border-radius: 0;
+}
+.btn-danger:hover{
+    background: crimson;
+}
+#cars .btn-secondary{
+    display: block;
+    margin: auto;
+    padding: 0.7rem 2.5rem;
+    border:none;
+    border-radius: 0;
+    background: #000;
+}
+#cars .btn-secondary:hover{
+    background: crimson;
+}
+/* @@@@@@@@@@@@@@@@ about section @@@@@@@@@@@@@@@@ */
+#about{
+    background: url('../images/about.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 500px;
+}
+.title-heading{
+    font-size: 3rem;
+}
+#about .about-content h2::after{
+    content: " ";
+    height: 2px;
+    width: 680px;
+    background: #C4C6C8;
+    display: block;
+    margin-top: -20px;
+    margin-left: 430px;
+}
+#about .about-content p{
+    text-align: justify;
+    line-height: 1.7rem;
+}
+#about .btn-secondary{
+    color: black;
+    background: #C4C6C8;
+    padding: 0.7rem 2.5rem;
+    border: none;
+    border-radius: 0;
+}
+#about .btn-secondary:hover{
+   background: crimson;
+   color: #fff;
+}
+/* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@ car feature @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+#car-feature .feature-title h2::after{
+    content: " ";
+    height: 1px;
+    width: 680px;
+    background: #03DE1C;
+    display: block;
+    margin-top: -20px;
+    margin-left: 350px;
+}
+#car-feature .card{
+    border: none;
+}
+#car-feature .card .feature-img{
+    background: #EDEEED;
+    padding: 5rem 2rem;
+    position: relative;
+    transition: ease-in-out 0.3s;
+}
+#car-feature .card .feature-img:hover{
+    background-color: #03DE1C;
+}
+#car-feature .card .feature-img:hover .price-box{
+    background-color: #fff;
+}
+#car-feature  .card .top-count{
+    position: absolute;
+    padding: 10px 14px;
+    border-radius: 100%;
+    background: #000;
+    color: #fff;
+    top: -6%;
+    left: 50%;
+    transform: translateX(-50%);  
+}
+#car-feature .card .top-count span{
+    text-align: center;   
+    font-size: 20px;
+    font-weight: 500;
+}
+#car-feature .card .price-box{
+    position: absolute;
+    bottom: 0%;
+    left: 50%;
+    background: #03DE1C;
+    height: 70px;
+    width: 110px;
+    transform: translateX(-50%);
+    padding: 1rem;
+    transition: ease-in-out 0.3s;
+ 
+}
+#car-feature .card .price-box h5{
+    font-size: 14px;
+    font-weight: 600;
+}
+#car-feature .card .price-box p{
+    font-size: 12px;
+    font-weight: 600;  
+}
+#car-feature .card-title h4{
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 700;
+}
+#car-feature .card-title {
+    color: black;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: justify;
+    line-height: 26px;
+}
+/* @@@@@@@@@@@@@@@@@@ count section @@@@@@@@@@@@@@@@ */
+#count{
+    background: url('../images/count-bg1.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 450px;
+}
+#count .count-content{
+    text-align: center;
+    margin-top: 8rem;
+}
+#count .count-content i{
+    font-size: 2rem;
+}
+#count .count-content h4{
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+#count .count-content span{
+    font-size: 0.9rem;
+    color: #03DE1C;
+    font-weight: 700;
+
+}
+/* @@@@@@@@@@@@@@@@@@@ client says section @@@@@@@@@@@@@@@@@@ */
+#client{
+    background: #f7f7f7;
+}
+#client .client-heading h2::after{
+    content: " ";
+    height: 1px;
+    width: 450px;
+    background: #03DE1C;
+    display: block;
+    margin-top: -20px;
+    margin-left: 500px;
+}
+#client .client-slider .client-content p{
+    background: #fff;
+    padding: 15px;
+    height: 90px;
+    width: 90px;
+    font-size: 10px;
+}
+#client .client-slider .client-content img{
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    display: block;
+    margin: auto;
+}
+#client .client-slider .client-content h5{
+    margin-top: 10px;
+    text-transform: uppercase;
+    font-size: 1rem;
+}
+#client .client-slider .client-content h6{
+    color: #03DE1C;
+    font-size: 0.8rem;
+}
+#client.client-slider .client-content i{
+    font-size: 0.8rem;
+}
+#client .client-slider .jomo-bg p{
+    display: block;
+    margin: auto;
+    line-height: 1.6rem;
+    font-size: 0.9rem;
+    height: 130px;
+    width: 400px;
+    text-align: center;
+    background: #fff;
+    border: 1px solid black;
+    padding: 15px;
+    margin-bottom: 10px;
+}
+#client .client-slider .jomo-bg img{
+    display: block;
+    margin: auto;
+    height: 150px;
+    width: 150px;
+    border-radius: 100%;
+}
+#client .client-slider .jomo-bg h5{
+    margin-top: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1rem;
+}
+#client .client-slider .jomo-bg h6{
+    color: #03DE1C;
+    font-size: 0.8rem;
+    text-align: center;
+}
+#client .client-slider .jomo-bg i{
+    font-size: 0.8rem;
+}
+#client .owl-theme .owl-dots .owl-dot span {
+    width: 10px;
+    height: 10px;
+    margin: 5px 7px;
+    background: #fff;
+    border: 1px solid #03DE1C;
+    display: block;
+    -webkit-backface-visibility: visible;
+    transition: opacity .2s ease;
+    border-radius: 30px;
+}
+#client .owl-theme .owl-dots .owl-dot.active span {
+    background: #03DE1C;
+}
+/* contact part */
+#client .contact-heading h2::after{
+    content: " ";
+    height: 1px;
+    width: 640px;
+    background: #03DE1C;
+    display: block;
+    margin-top: -20px;
+    margin-left: 300px;
+}
+#client .form-part .form-group input{
+    background: #f7f7f7;
+    border: none;
+    border-bottom:1px solid black ;
+    border-radius: 0;
+}
+#client .form-part .form-group input::placeholder{
+    font-size: 0.8rem;
+    color: black;
+}
+#client .form-part .form-group textarea{
+    border: none;
+    border-bottom:1px solid black ;
+    border-radius: 0;   
+}
+#client .btn-dark{
+    padding: 0.7rem 3rem;
+}
+#client .btn-dark:hover{
+    background: crimson;
+    border: none;
+}
+.footer-gap{
+    margin-bottom: 7rem;
+}
+/* @@@@@@@@@@@@@@@@@@ footer section @@@@@@@@@@@@@@@@@@@@@@@*/
+footer{
+    background: black;
+    padding: 2rem;
+    color: #fff;
+    position: relative;
+}
+.top-footer{
+    position: absolute;
+    top: -13%;
+    left: 50%;
+    background: #03DE1C;
+    height: 85px;
+    border-radius: 5px;
+    transform: translateX(-50%);
+}
+.top-footer .phone h5 i{
+    font-size: 1.5rem;
+}
+.top-footer .phone h5{
+    font-size: 1.2rem;
+    margin-left: 10px;
+}
+.top-footer .email::after{
+    content: '';
+    margin-left: 15px;
+    border-left: 3px solid #fff;
+
+}
+.top-footer .email h5 i{
+    margin-left: 15px;
+    font-size: 1.5rem;
+}
+.top-footer .email h5{
+    font-size: 1.2rem;
+    margin-left: 10px;
+}
+.top-footer .icon{
+    margin-left: 15px;
+}
+.top-footer .icon i{
+    margin-left: 10px;
+}
+.footer-content h5{
+    font-size: 1.2rem;
+    font-weight: 700;
+    word-spacing: -1px;
+    text-transform: uppercase;
+}
+.footer-content p{
+    margin-top: 20px;
+    font-size: 0.8rem;
+    text-align: left;
+}
+.footer-content input{
+    margin-top: 20px;
+    padding: 0.5rem;
+}
+.footer-content .btn-info{
+    text-transform: uppercase;
+    padding: 0.7rem 2rem;
+}
+.copy-right{
+    position: absolute;
+    bottom: 0%;
+    left: 50%;
+    transform: translateX(-50%);
+    border-width: 250px;
+    border-top: 1px solid #fff;
+    
+}
+.copy-right span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.8rem;
+}
